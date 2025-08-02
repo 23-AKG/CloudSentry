@@ -17,7 +17,7 @@ It ingests events, applies detection rules (like brute-force login detection), a
 
 ## **📌 Architecture**
 
-![Architecture Diagram](A_flowchart_diagram_in_the_image_titled_"CloudSent.png")
+![Architecture Diagram](image_2025-08-03_001232611.png)
 
 ---
 
@@ -138,3 +138,7 @@ docker-compose down
 ```
 
 ---
+
+
+## **Author**
+Akarsh Kumar Gowda
