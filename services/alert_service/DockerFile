@@ -1,0 +1,18 @@
+# Base Python image
+FROM python:3.11-slim
+
+# Set working directory
+WORKDIR /app
+
+# Copy shared utilities
+COPY common /app/common
+
+# Install dependencies
+COPY alert_service/requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy service-specific code
+COPY alert_service/app.py /app/app.py
+COPY alert_service/*.py /app/
+# Run the service
+CMD ["python", "app.py"]

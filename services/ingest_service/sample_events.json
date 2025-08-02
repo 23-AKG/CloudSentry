@@ -1,0 +1,7 @@
+[
+  {"timestamp": "2025-08-02T10:00:00", "ip": "192.168.0.10", "event": "failed_login"},
+  {"timestamp": "2025-08-02T10:00:05", "ip": "192.168.0.10", "event": "failed_login"},
+  {"timestamp": "2025-08-02T10:00:10", "ip": "192.168.0.10", "event": "failed_login"},
+  {"timestamp": "2025-08-02T10:01:00", "ip": "10.0.0.5", "event": "login_success"},
+  {"timestamp": "2025-08-02T10:02:00", "ip": "203.0.113.45", "event": "suspicious_activity"}
+]
